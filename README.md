@@ -1,2 +1,15 @@
-# electronic_design
-全国大学生电子竞赛作品及自我训练作品
+# electromagnetic_gun
+
+电磁炮
+
+# ball and plate double
+
+板球系统
+
+# inverted pendulum - double
+
+旋转倒立摆系统
+
+# wind control
+
+风力摆系统
