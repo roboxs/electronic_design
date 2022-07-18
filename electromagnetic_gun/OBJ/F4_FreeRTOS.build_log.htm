@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: du du, du, LIC=8MZAR-KB2LK-34IST-RL99X-E8BHQ-E9F08
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.27.1.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\123\Desktop\electronic_designer\electromagnetic_gun\USER\F4_FreeRTOS.uvprojx
+Project File Date:  08/09/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'F4_FreeRTOS'
+compiling task_vision.c...
+compiling task_control.c...
+..\TASK\src\task_control.c(123): warning:  #188-D: enumerated type mixed with another type
+  	target->mode = g_bluetooth_data.mode;
+..\TASK\src\task_control.c(241): warning:  #188-D: enumerated type mixed with another type
+  	update->cmd = g_bluetooth_data.cmd;
+..\TASK\src\task_control.c(298): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	temp = -1.5076e-5f * distance *distance*distance + 0.0125f * distance * distance - 3.1982f * distance + 278.1027;
+..\TASK\src\task_control.c(308): warning:  #1-D: last line of file ends without a newline
+  }
+..\TASK\src\task_control.c(287): warning:  #177-D: function "quadratic_fitting"  was declared but never referenced
+  static float quadratic_fitting(float distance)
+..\TASK\src\task_control.c(295): warning:  #177-D: function "three_fitting"  was declared but never referenced
+  static float three_fitting(float distance)
+..\TASK\src\task_control.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=30470 RO-data=954 RW-data=264 ZI-data=84184  
+FromELF: creating hex file...
+"..\OBJ\F4_FreeRTOS.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_F4_FreeRTOS
+  D:\MDK5\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

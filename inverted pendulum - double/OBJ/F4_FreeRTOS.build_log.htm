@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: du du, du, LIC=8MZAR-KB2LK-34IST-RL99X-E8BHQ-E9F08
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.27.1.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\123\Desktop\inverted pendulum - double\USER\F4_FreeRTOS.uvprojx
+Project File Date:  07/22/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'F4_FreeRTOS'
+compiling main.c...
+compiling task_control.c...
+..\TASK\src\task_control.c(201): warning:  #177-D: function "control_pid_calculate"  was declared but never referenced
+  static void control_pid_calculate(InvertControl_t *calculate)
+..\TASK\src\task_control.c: 1 warning, 0 errors
+compiling bsp_system.c...
+compiling stm32f4xx_it.c...
+stm32f4xx_it.c(231): warning:  #550-D: variable "rxcount"  was set but never used
+  	u16 rxcount;
+stm32f4xx_it.c: 1 warning, 0 errors
+linking...
+Program Size: Code=24744 RO-data=760 RW-data=220 ZI-data=83396  
+FromELF: creating hex file...
+"..\OBJ\F4_FreeRTOS.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_F4_FreeRTOS
+  D:\MDK5\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:13
+</pre>
+</body>
+</html>
