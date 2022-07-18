@@ -35,7 +35,7 @@ Reset_Handler    PROC
 
 ## 2.USER
 
-main函数在这里！！！
+main函数在这里
 
 main函数里面建立多个固定大小的栈的任务。
 
@@ -63,7 +63,7 @@ DMP：IMU的运动处理库，有用到IMU的才调用
 
 FreeRTOS：操作系统的kernel，移植的文件
 
-FWLIB：stm32的库，抑制的文件
+FWLIB：stm32的库，移植的文件
 
 MATH：数学库，自己瞎写的
 
