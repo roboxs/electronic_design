@@ -53,7 +53,7 @@ vTaskStartScheduler()
 
 ## 4.Driver
 
-驱动层的东西，就是task执行过程中需要调用的
+驱动层，task调用此库
 
 ## 其他文件
 
